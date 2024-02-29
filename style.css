@@ -134,3 +134,29 @@ ul {
   fill: #ff6b01;
   transition: fill 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+.info-items__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.orange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  background-color: #ff6b01;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.gray {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  background-color: gray;
+  font-weight: 500;
+  border-radius: 5px;
+}

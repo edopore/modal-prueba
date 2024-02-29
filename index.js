@@ -8,8 +8,8 @@ document.querySelector("button[close-modal]").addEventListener("click", () => {
   document.querySelector(".modal").classList.toggle("display-none");
 });
 window.addEventListener("keydown", (event) => {
-  console.log(event);
   if (event.code === "Escape") {
-    document.querySelector(".modal").classList.toggle("display-none");
+    console.log(`Key ${event.code} pressed`);
+    document.querySelector(".modal").classList.add("display-none");
   }
 });
