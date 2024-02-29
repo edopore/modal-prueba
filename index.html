@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container flex">
       <button class="btn btn-white" type="button" open-modal>Open Modal</button>
+      <button class="btn btn-white btn-flex">
+        Login with
+        <svg width="20" height="20">
+          <use href="img/symbol-defs.svg#icon-google-tile"></use>
+        </svg>
+      </button>
     </div>
     <div class="modal display-none" id="modal">
       <div class="modal-container">
