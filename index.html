@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button type="button" open-modal>Open Modal</button>
+    </div>
+    <div class="modal display-none">
+      <div class="modal-container">
+        <header class="modal-header">
+          <button class="btn btn-svg" close-modal>
+            <svg width="15" height="15">
+              <use href="./img/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+        </header>
+        <main class="modal-body">
+          <section class="image-section">
+            <img src="./img/fistful.jpg" width="396" />
+          </section>
+          <section class="movie-info-section">
+            <h2>A FISTFUL OF LEAD</h2>
+            <ul class="movie-info-list">
+              <li class="info-items">
+                <ul>
+                  <li class="info-items__subtitle">Vote / Votes</li>
+                  <li class="info-items__text">7.3 / 1260</li>
+                </ul>
+                <ul>
+                  <li class="info-items__subtitle">Popularity</li>
+                  <li class="info-items__text">100.2</li>
+                </ul>
+                <ul>
+                  <li class="info-items__subtitle">Original Title</li>
+                  <li class="info-items__text">A FISTFUL OF LEAD</li>
+                </ul>
+                <ul>
+                  <li class="info-items__subtitle">Genre</li>
+                  <li class="info-items__text">Western</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li><h3>ABOUT</h3></li>
+                  <li>
+                    <p>
+                      Four of the West’s most infamous outlaws assemble to steal
+                      a huge stash of gold from the most corrupt settlement of
+                      the gold rush towns. But not all goes to plan one is
+                      killed and the other three escapes with bags of gold hide
+                      out in the abandoned gold mine where they happen across
+                      another gang of three – who themselves were planning to
+                      hit the very same bank! As tensions rise, things go from
+                      bad to worse as they realise the bags of gold are filled
+                      with lead... they’ve been double crossed – but by who and
+                      how?
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="btn-list">
+              <li>
+                <button class="btn btn-primary">ADD TO WATCHED</button>
+              </li>
+              <li>
+                <button class="btn btn-white">ADD TO QUEUE</button>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
