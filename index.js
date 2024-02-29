@@ -10,6 +10,6 @@ document.querySelector("button[close-modal]").addEventListener("click", () => {
 window.addEventListener("keydown", (event) => {
   console.log(event);
   if (event.code === "Escape") {
-    document.querySelector(".modal").classList.add("display-none");
+    document.querySelector(".modal").classList.toggle("display-none");
   }
 });
